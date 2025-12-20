@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Plant shopping cart">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Plantify</title>
+    <link rel="icon" href="./images/icon-plant.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carts.css">
+</head>
+<body>
+    <section>
+      <div class="navbar">
+            <ul>
+               <li><a href="index.html">Home</a></li> 
+               <li><a href="shop.html">Shop</a></li> 
+               <li>
+                 <a href="shopping_cart.html">
+                   <svg class="cart-icon" fill="currentColor" viewBox="0 0 20 20" style="width: 16px; height: 16px; margin-right: 5px; vertical-align: middle;">
+                        <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
+                   </svg>
+                   Cart
+                 </a>
+               </li>
+            </ul>
+      </div>
+    </section>
+
+  <div class="cart-container">
+    <h1>Shopping Cart</h1>
+    <div class="cart-content">
+      <div class="cart-items">
+        <div class="cart-item">
+          <img src="https://i.pinimg.com/736x/8b/e5/96/8be5963ebaa053092f1f7a0f409df70d.jpg" alt="Indoor Oasis">
+          <div class="item-info">
+            <h3>Indoor Oasis</h3>
+            <p class="price">$350.00</p>
+            <div class="quantity">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+          </div>
+          <button class="remove">✖</button>
+        </div>
+
+        <div class="cart-item">
+          <img src="https://i.pinimg.com/736x/d5/48/9d/d5489d408ff70bc1e776f5745ebc5fe4.jpg" alt="Snake Plant">
+          <div class="item-info">
+            <h3>Snake Plant</h3>
+            <p class="price">$280.00</p>
+            <div class="quantity">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+          </div>
+          <button class="remove">✖</button>
+        </div>
+
+        <div class="cart-item">
+          <img src="https://i.pinimg.com/736x/fc/22/fe/fc22fe9b59d201e00d94def57b99e721.jpg" alt="Monstera">
+          <div class="item-info">
+            <h3>Monstera</h3>
+            <p class="price">$650.00</p>
+            <div class="quantity">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+          </div>
+          <button class="remove">✖</button>
+        </div>
+      </div>
+
+      <div class="summary">
+        <h2>Order's Summary</h2>
+        <div class="summary-row">
+          <span>Number Of Items</span>
+          <span>3</span>
+        </div>
+        <div class="summary-row">
+          <span>Total</span>
+          <span>$1280.00</span>
+        </div>
+        <div class="summary-row">
+          <span>Shipping</span>
+          <span>$75.00</span>
+        </div>
+        <hr>
+        <div class="summary-row total">
+          <span>Total Cost</span>
+          <span>$1355.00</span>
+        </div>
+
+        <button class="checkout-btn">Order Purchase</button>
+        <a href="shop.html" class="continue">Back To Shopping </a>
+      </div>
+    </div>
+  </div>
+
+<footer id="contact">
+     <div class="footer-objects">
+         <div class="menu-footer">
+             <h1 class="title-large">Plantify</h1>
+             <p>The plant kingdom encompassed all living things that were not animals, and included algae.</p>
+         </div>
+          <div class="menu-footer">
+             <h1 class="title">Social</h1>
+             <ul>
+                 <li> <a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                 <li> <a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                 <li> <a href="https://www.linkedin.com" target="_blank">Linkedin</a></li>
+             </ul>
+         </div>
+         <div class="menu-footer">
+             <h1 class="title">Company</h1>
+             <ul>
+                 <li>Home</li>
+                 <li>Collection</li>
+                 <li>About us</li>
+             </ul>
+         </div>
+         <div class="menu-footer">
+             <h1 class="title">Site Map</h1>
+             <ul>
+                 <li>Plant care</li>
+                 <li>New Arrivel</li>
+                 <li>Community</li>
+             </ul>
+         </div>
+         <div class="menu-footer">
+             <h1 class="title">Contact</h1>
+             <ul>
+                 <li>+45 298-573-9184</li>
+                 <li>Plantify@gmail.com</li>
+             </ul>
+         </div>
+     </div>
+     <hr>
+     <div class="copy-right">
+         <h1>&copy; All rights revered to Plantify</h1>
+     </div>
+ </footer>
+</body>
+</html>
